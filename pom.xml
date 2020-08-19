@@ -11,8 +11,9 @@
     <modules>
         <module>common</module>
         <module>upgrade-server</module>
-        <module>jgroups-4</module>
         <module>jgroups-36</module>
+        <module>jgroups-4</module>
+        <module>jgroups-5</module>
     </modules>
 
     <properties>
