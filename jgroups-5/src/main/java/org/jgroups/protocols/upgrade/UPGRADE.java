@@ -232,8 +232,7 @@ public class UPGRADE extends Protocol {
             return null;
         Address destination=jg_msg.getDest(), sender=jg_msg.getSrc();
 
-        Object obj=jg_msg.getObject();
-        ByteArrayDataOutputStream out=new ByteArrayDataOutputStream(obj == null? 10 : Util.size(obj));
+        ByteArrayDataOutputStream out=new ByteArrayDataOutputStream(128);
         jg_msg.writePayload(out);
         ByteArray payload=out.getBuffer();
 
