@@ -36,8 +36,5 @@
     <MFC max_credits="2M"
          min_threshold="0.4"/>
     <FRAG2 frag_size="60K"  />
-    <upgrade.UPGRADE active="true"
-                     server_address="localhost"
-                     server_port="50051"
-                     server_cert="${server.cert}"/>
+    <relay.RELAY2 site="lon" config="relay.xml"/>
 </config>

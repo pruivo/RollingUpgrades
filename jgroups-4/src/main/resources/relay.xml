@@ -1,0 +1,14 @@
+<RelayConfiguration xmlns="urn:jgroups:relay:1.0">
+   <sites>
+      <site name="lon">
+         <bridges>
+            <bridge config="bridge.xml" name="xsite"/>
+         </bridges>
+      </site>
+      <site name="nyc">
+         <bridges>
+            <bridge config="bridge.xml" name="xsite"/>
+         </bridges>
+      </site>
+   </sites>
+</RelayConfiguration>
